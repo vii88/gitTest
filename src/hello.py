@@ -3,3 +3,6 @@ def func():
 
 def func1():
     return "goodbye"
+
+def func12():
+    return "thx"
