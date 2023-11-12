@@ -2,7 +2,7 @@ from src.hello import func,func12
 print("Here")
 def print_hi():
     # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi {ask()}')  # Press Ctrl+F8 to toggle the breakpoint.
+    print(f'Hi sir, {ask()}')  # Press Ctrl+F8 to toggle the breakpoint.
 def ask():
     print(func12())
     return input('ваше имя: ')
