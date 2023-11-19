@@ -1,5 +1,6 @@
 from src.hello import func, func12, new_func
 
+
 def print_hi():
     print(f'hello,today num is" {new_func()}\n {ask()}')  # Press Ctrl+F8 to toggle the breakpoint.
 
@@ -7,6 +8,10 @@ def print_hi():
 def ask():
     print(f'{func()} {func12()}')
     return input('ваше имя: ')
+
+
+def num():
+    return (t := input('Введите число: ')) * t
 
 
 # Press the green button in the gutter to run the script.
